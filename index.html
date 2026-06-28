@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet">
+    <title>Glam Store</title>
+</head>
+
+<body>
+    <div id="cursor-simulator"></div>
+        <div class="loader"></div>
+    <header>
+        <div class="logo">Glam Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contatos</li> 
+                <li class="cart-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+</svg>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tech circle">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+            <div class="circle circle-4"></div>
+        </div>
+        
+
+        <div class="list">
+            <div class="item active">
+
+                <div class="product-img">
+                    <img src="img/kaiak.jpg" alt="Kaiak Oceano 100ml">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Caminho olfativo: Aromático amadeirado moderado</p>
+                    <p class="product-name">Kaiak Oceano 100ml</p>
+                    <p class="description">
+                        Experimente a emoção única de desbravar a imensidão azul com Kaiak Oceano masculino. Notas
+                        frescas das algas marinhas e salgadas da pataqueira, ingrediente da biodiversidade brasildeira,
+                        unem-se à densidade do âmbar marinho e das madeiras escuras.
+                    </p>
+                    <button class="btn">Comprar</button>
+                </div>
+            </div>
+
+            <div class="item">
+
+                <div class="product-img">
+                    <img src="img/essencialato.jpg" alt="Essencial Ato 100ml">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Caminho olfativo: Amadeirado especiado intenso</p>
+                    <p class="product-name">Essencial Ato 100ml</p>
+                    <p class="description">
+                        Essencial Ato é uma fragrancia que celebra a autencidade e a força do homem moderno. Com
+                        notas de saída de bergamota e limão, coração de lavanda e jasmim, e fundo de sândalo e musk,
+                        é uma fragrância que exala sofisticação e elegância.
+                    </p>
+                    <button class="btn">Comprar</button>
+                </div>
+            </div>
+
+            <div class="item">
+
+                <div class="product-img">
+                    <img src="img/D_Q_NP_896799-MLU74280175468_022024-O.webp" alt="Natura Homem Neo 100ml">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Caminho olfativo: Amadeirado suave</p>
+                    <p class="product-name">Natura Homem Neo 100ml</p>
+                    <p class="description">
+                        Natura Homem Neo é uma fragrância que representa a essência do homem contemporâneo. Com
+                        notas de saída frescas e citricas, que proporcionam uma sensação revigorante. No coraçao
+                        notas aromaticas e especiadas se entrelaçam, conferindo complexidade e um toque de
+                        sofisticação.
+                    </p>
+                    <button class="btn">Comprar</button>
+                </div>
+            </div>
+
+            <div class="arrows">
+                <button class="arrow-btn" id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff"
+                        class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                    </svg>
+                </button>
+                <button class="arrow-btn" id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff"
+                        class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="indicators">
+                <div class="numbers">01</div>
+                <div class="dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+    </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
