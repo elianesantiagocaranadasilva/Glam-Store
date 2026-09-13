@@ -32,7 +32,7 @@ Você precisará ter o [Node.js](https://nodejs.org) instalado em seu computador
 ### Passos:
 1. Clone este repositório:
    ```bash
-   git clone https://github.com[elianesantiagocaranadasilva]/[Glam-Store].git
+   git clone https://github.com
    ```
 2. Acesse a pasta do projeto:
    ```bash
