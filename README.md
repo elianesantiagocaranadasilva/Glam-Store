@@ -1,3 +1,4 @@
+
 # Projeto E-commerce com Automação de Testes em Cypress
 Este é um projeto de um site de e-commerce completo e responsivo, desenvolvido para praticar conceitos de desenvolvimento front-end e, principalmente a aplicação de garantia de Qualidade através de testes automatizados de interface (E2E).
 ---
@@ -35,7 +36,7 @@ Você precisará ter o [Node.js](https://nodejs.org) instalado em seu computador
    '''
 2. Acesse a pasta do projeto:
    '''bash
-   cd [Glam-Store]
+   cd Glam-Store
    '''
 3. Instale as dependências do Cypress:
    '''bash
