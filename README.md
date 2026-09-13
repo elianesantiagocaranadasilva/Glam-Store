@@ -50,6 +50,6 @@ Você precisará ter o [Node.js](https://nodejs.org) instalado em seu computador
 
    ## Autor
    Desenvolvido por **Eliane Santiago Carana da Silva**
-   *Estudante de Análise e Desenvolvimento de Sistemas na Unifatecie.*
-   Entre em contato comigo através do [LinkedIn]([linkedin.com/in/elianesantiagocaranaads] 
+   *Estudante de Análise e Desenvolvimento de Sistemas no colégio Unifatecie Centro Uiversitário.*
+   Entre em contato comigo através do [LinkedIn]([linkedin.com/in/elianesantiagocaranaads]).
    
