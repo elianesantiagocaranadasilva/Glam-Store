@@ -34,20 +34,21 @@ Você precisará ter o [Node.js](https://nodejs.org) instalado em seu computador
    ```bash
    git clone https://github.com
    ```
+
 2. Acesse a pasta do projeto:
    ```bash
    cd Glam-Store
    ```
+
 3. Instale as dependências do Cypress:
    ```bash
    npm install cypress --save-dev
    ```
+
 4. Abra o painel interativo do Cypress para rodar os testes:
    ```bash
    npx cypress open
    ```
-
-   ---
 
    ## Autor
    Desenvolvido por **Eliane Santiago Carana da Silva**
